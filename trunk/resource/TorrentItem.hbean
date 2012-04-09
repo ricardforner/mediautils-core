@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<prototype target="com.it.torrent.webui.common.ItemBase" descriptor="com.it.torrent.webui.common.ItemBase">
+
+	<attribute name="Hash">
+		<display-name>Hash</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="Status">
+		<display-name>Estado</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="Name">
+		<display-name>Nombre</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="Size">
+		<display-name>Tamaño</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="Downloaded">
+		<display-name>Finalizado</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="Ratio">
+		<display-name>Ratio</display-name>
+		<description/>
+	</attribute>
+
+	<attribute name="CompletamenteServido">
+		<display-name>Servido</display-name>
+		<description/>
+	</attribute>
+
+	<iterator name="lista">
+		<iterator-attribute name="Name"/>
+		<iterator-attribute name="Size"/>
+		<iterator-attribute name="Downloaded"/>
+		<iterator-attribute name="CompletamenteServido"/>
+		<iterator-attribute name="Ratio"/>
+		<iterator-attribute name="Status"/>
+	</iterator>
+
+	<iterator name="listaSeasonEnded">
+		<iterator-attribute name="Name"/>
+		<iterator-attribute name="Downloaded"/>
+		<iterator-attribute name="CompletamenteServido"/>
+		<iterator-attribute name="Ratio"/>
+		<iterator-attribute name="Status"/>
+	</iterator>
+	
+	<iterator name="publicaNMT">
+		<iterator-attribute name="Name"/>
+		<iterator-attribute name="Ratio"/>
+		<iterator-attribute name="Downloaded"/>
+	</iterator>
+
+</prototype>

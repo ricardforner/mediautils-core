@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+
+	<property key="host_ip"
+		attribute="myip" />
+
+	<property key="host_port"
+		attribute="9091" />
+
+	<property key="username"
+		attribute="user" />
+
+	<property key="password"
+		attribute="pss" />
+
+	<property key="directorio_logs"
+		attribute="./" />
+
+	<property key="directorio_properties"
+		attribute="." />
+
+	<property key="num_logs"
+		attribute="0" />
+
+	<property key="nivel_debug"
+		attribute="1" />
+
+	<property key="client_torrent"
+		attribute="transmission" />
+
+</properties>
